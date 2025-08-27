@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./perfil.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Jennifer Slendy Pabón Vargas</h1>
+            <p class="profile-summary">
+                Soy estudiante en formación, responsable y con gran disposición para aprender. Me caracterizo por el compromiso, la puntualidad y la motivación para adquirir nuevas experiencias laborales y académicas. Tengo habilidades para trabajar en equipo, adaptarme a diferentes entornos y aportar con dedicación a las tareas que me sean asignadas.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:jenniferpabonvargas@gmail.com">jenniferpabonvarga@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573157302454" target="_blank" rel="noopener noreferrer">+57 315302454</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Educación Básica Primaria Finalizada Mary Villamizar, Barrancabermeja, 2019</h4>
+                    <p>Bachillerato Académico en curso CASD Jose Prudencio Padilla, Barrancabermeja, Actualmente en 1103</p>
+                    <P>Técnica en Asistente Administrativo (en curso) SENA Barrancabermeja, Desde 2024</P>
+                </li>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Manejo básico de herramientas ofimáticas (Word, Excel, PowerPoint)</li>
+                    <li>Digitación y transcripción de información.</li>
+                    <li>Apoyo en procesos administrativos y de oficina.</li>
+                    <li>Manejo de correo electrónico y herramientas digitales.</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Atención al detalle</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./perfil.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="URL_GITHUB" target="_blank" class="linktree-link"><strong>GitHub</strong></a>
+            <a href="URL_LINKEDIN" target="_blank" class="linktree-link"><strong>LinkedIn</strong></a>
+            <a href="URL_PORTAFOLIO" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/sarabicristal32@gmail.com" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Jennifer Pabón <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
